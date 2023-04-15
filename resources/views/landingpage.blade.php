@@ -29,7 +29,7 @@
         <a href="#" class="text-xl hover:text-[#426A4E] duration-500">Riwayat Pembayaran</a>
       </li>
       <li class="mx-5 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-[#426A4E] duration-500">Bukti Pengambilan Sampah</a>
+        <a href="/buktiPengambilan" class="text-xl hover:text-[#426A4E] duration-500">Bukti Pengambilan Sampah</a>
       </li>
 
       <!--dropdown start-->

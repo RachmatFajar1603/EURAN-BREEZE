@@ -28,6 +28,14 @@ Route::get('/informasitagihan', function () {
     return view('informasitagihan');
 });
 
+
+Route::get('/buktiPengambilan', function () {
+    return view('buktiPengambilan');
+});
+
+
+Route::get('/historyPembayaran', [App\Http\Controllers\PembayaranController::class, 'readDB']);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
