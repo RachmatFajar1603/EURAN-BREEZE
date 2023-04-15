@@ -16,10 +16,10 @@
                           <a href="/informasitagihan" class="text-lg hover:text-[#426A4E] duration-500">Informasi Tagihan</a>
                         </li>
                         <li class="mx-4 my-8 ">
-                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Riwayat Pembayaran</a>
+                          <a href="/historyPembayaran" class="text-lg hover:text-[#426A4E] duration-500">Riwayat Pembayaran</a>
                         </li>
                         <li class="mx-4 my-8 ">
-                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Bukti Pengambilan Sampah</a>
+                          <a href="/buktiPengambilan" class="text-lg hover:text-[#426A4E] duration-500">Bukti Pengambilan Sampah</a>
                         </li>
                 </div>
             </div>

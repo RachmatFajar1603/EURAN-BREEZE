@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-URAN | Informasi Tagihan</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
-</head>
-<body class="bg-[#fafafa]">
-
-  @include('layouts.navigation')
-    
-  <!--card start-->
-  <div class="overflow-hidden bg-emerald-900 sm:rounded-xl relative w-5/6 ml-28 mt-10 drop-shadow-2xl">
+<x-app-layout>
+<!--card start-->
+<div class="overflow-hidden bg-emerald-900 sm:rounded-xl relative w-5/6 ml-28 mt-10 drop-shadow-2xl">
     <div class="px-4 py-5 sm:px-6">
       <h3 class="text-base font-semibold leading-6 text-gray-100">Informasi Tagihan</h3>
       <p class="mt-1 max-w-2xl text-sm text-gray-200">Iuran Tagihan Details</p>
@@ -117,18 +104,4 @@
   </div>
       <!--popup end-->
 
-
-
-    <script>
-        function Menu(e){
-          let list = document.querySelector('ul');
-    
-          e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) :( e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
-        }
-      </script>
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
-      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+</x-app-layout>
